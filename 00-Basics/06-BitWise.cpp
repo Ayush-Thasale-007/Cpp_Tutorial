@@ -13,5 +13,8 @@ int main()
     cout << AND << endl;
     // cout << x & y << endl; : Not Valid
     cout << NOR << endl;
+    // If U Want To Evaluvate Here Use Parenthesis
+    int a = 11, b = 9;
+    cout << (a | b) << endl;
     return 0;
 }
