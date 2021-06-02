@@ -11,7 +11,7 @@ int main()
     cout << "Enter y : " << endl;
     cin >> y;
 
-    // Just Like Other Programming Languages
+    // Just Like C Programming Language
     if (x > y)
     {
         cout << "x Is Greater" << endl;
@@ -27,6 +27,6 @@ int main()
     }
     else
         cout << "InValid" << endl;
-       
+
     return 0;
 }
