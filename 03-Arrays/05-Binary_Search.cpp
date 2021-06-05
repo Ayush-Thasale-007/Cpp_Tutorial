@@ -14,6 +14,33 @@ using namespace std;
 
 int main()
 {
+    int a[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int key = 7;
+    int low = 0, high = 9, mid;
+    int t = 0;
+    while (low <= high)
+    {
+
+        mid = (low + high) / 2;
+        if (key == a[mid])
+        {
+            cout << "Found at : " << mid << endl;
+            return 0;
+        }
+        else if (key < a[mid])
+        {
+            high = mid - 1;
+        }
+        else
+            low = mid + 1;
+        t++;
+        cout << "Turns : " << t << endl;
+    }
 
     return 0;
-}   
+}
+
+// First go
+// 1L 2 3 4 [5] 6 7 8 9 10H Not Found
+// 1 2 3 4 5 6L 7 [8] 9 10H Not Found
+// 1 2 3 4 5 6L [7] 8 9H 10 Found

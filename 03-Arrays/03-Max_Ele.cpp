@@ -5,7 +5,9 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {4, 7, 5, 8, 5}, max;
+    int arr[] = {4, 7, -5, 8, 5};
+    // Assigns max to minimum 64-bit Integer
+    int max = INT64_MIN;
     for (int i = 0; i < 5; i++)
     {
         if (arr[i] > max)
