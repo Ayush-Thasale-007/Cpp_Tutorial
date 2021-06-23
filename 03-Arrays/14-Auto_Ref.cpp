@@ -26,7 +26,7 @@ int main()
         cout << endl;
     }
 
-    // Note : You can use int or any other keyword in place of auto
+    // Note : You can't use int or any other keyword in place of auto
     // in above example
 
     return 0;
