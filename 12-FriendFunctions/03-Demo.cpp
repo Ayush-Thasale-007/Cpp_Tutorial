@@ -4,8 +4,8 @@ using namespace std;
 class Fruits
 {
 public:
-     static int price;
-     static int getPrice() { return price; }
+    static int price;
+    static int getPrice() { return price; }
     void setPrice(int rs) { price += rs; }
 };
 
