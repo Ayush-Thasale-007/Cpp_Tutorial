@@ -9,8 +9,15 @@ using namespace std;
 
 */
 
-int main()
-{
+/*
+these loops are printing the values of i+1
+output like:
+1 (when i=1)
+2  and so on
+*/
+
+int main(){
+
     for (int i = 0; i < 10; i++)
     {
         cout << i + 1 << " ";
