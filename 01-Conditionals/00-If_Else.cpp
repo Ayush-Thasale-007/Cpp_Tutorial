@@ -13,10 +13,10 @@ int main()
 
     // Just Like C Programming Language
     if (x > y)
-    {
+    {// If there is only ONE statement in the body of IF/ELSE...
         cout << "x Is Greater" << endl;
-    }
-
+    }// Then these Parenthesis can be omitted. 
+    
     else if (x < y)
     {
         cout << "y Is Greater" << endl;
