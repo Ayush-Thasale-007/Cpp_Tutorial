@@ -28,6 +28,6 @@ int main()
     {
         cout << arr[i] << endl;
     }
-
+// Would print the array that we just input above.
     return 0;
 }
