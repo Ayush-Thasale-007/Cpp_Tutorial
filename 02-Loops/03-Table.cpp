@@ -9,7 +9,8 @@ int main()
         So What Is Happening Here Is Lets Analyse First Round
         So The i Stays 1 Till j Becomes 11 And So On 
     */
-
+    
+    // We will be printing the table of 11 using nested for loops as an example here
     for (int i = 1; i < 11; i++)
     {
         for (int j = 1; j < 11; j++)
