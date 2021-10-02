@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// UpperCase
+// This program will convert your entered string hello's value to uppercase.
 
 int main()
 {
