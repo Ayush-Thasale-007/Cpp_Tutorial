@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Vowels
+// This program counts the total number of non-unique vowels present in given string str.
 
 int main()
 {
